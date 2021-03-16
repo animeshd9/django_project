@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block contect %}
+<h1>Contact</h1>
+<p>This is template </p>
+<p>
+    {{text}},{{number}},{{list}}
+
+</p>
+<ul>
+    {% for l in list %}
+    <li>{{l}}</li>
+    {% endfor %}
+</ul>
+{% endblock contect %}
